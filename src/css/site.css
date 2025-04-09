@@ -1,0 +1,96 @@
+body {
+    background-color: #1a1a1a;
+    color: #fb9111;
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f24a1e;
+    font-family: 'Cinzel', serif;
+}
+
+a {
+    color: #fb9111;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f24a1e;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 300px;
+    height: auto;
+}
+
+.brand-logo-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered-vert {
+    padding: 70px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-menu li a {
+    color: #fb9111;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+.nav-menu li a:hover {
+    color: #f24a1e;
+}
+
+.nav-menu .separator {
+    color: #fb9111;
+    font-weight: bold;
+    pointer-events: none;
+    user-select: none;
+}
+
+.hero-quote {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-style: italic;
+    color: #fb9111; /* brass */
+    text-align: center;
+    margin: 60px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-left: 5px solid #f24a1e;
+}
+
+.hero-quote footer {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fb9111;
+}
+
+.site-footer {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.center-horizontal {
+    text-align: center;
+}
+
+.site-footer-text {
+    font-family: 'Merriweather', serif;
+    font-size: 0.6rem;
+    text-align: center;
+}
